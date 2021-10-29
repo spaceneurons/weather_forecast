@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Bebas-Neue';
+  font-style:  normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url("./BebasNeuePro-Regular.woff2") format("woff2");
+       /* url("./gilroy-medium.woff") format("woff"); */
+}
+
+@font-face {
+  font-family: 'Bebas-Neue';
+  font-style:  normal;
+  font-weight: bold;
+  font-display: swap;
+  src: url("./BebasNeuePro-Bold.woff2") format("woff2");
+       /* url("./gilroy-medium.woff") format("woff"); */
+}

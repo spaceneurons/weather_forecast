@@ -1,0 +1,25 @@
+.weather {
+  position: relative;
+  width: 68%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  box-sizing: border-box;
+  /* min-height: 100vh; */
+}
+
+
+@media screen and (max-width: 859px) {
+  .weather {
+    width: 100%;
+    min-height: 400px;
+  }
+}
+
+@media screen and (max-width: 659px) {
+  .weather {
+    width: 100%;
+    min-height: 300px;
+  }
+}

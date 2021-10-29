@@ -1,0 +1,7 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page.css);
+@import url(../blocks/container.css);
+@import url(../blocks/weather.css);
+@import url(../blocks/city.css);
+@import url(../blocks/add-info.css);
