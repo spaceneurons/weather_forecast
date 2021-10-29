@@ -1,17 +1,24 @@
 {
-    "name": "weather",
+    "name": "weatherforecast",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
         "build": "webpack --mode production",
-        "dev": "webpack serve"
+        "dev": "webpack serve",
+        "deploy": "gh-pages -d dist",
+        "predeploy": "npm run build"
     },
-
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/spaceneurons/weather_forecast"
+    },
     "author": "",
     "license": "ISC",
-
-    "homepage": "",
+    "bugs": {
+        "url": "https://spaceneurons.github.io/weather_forecast/issues"
+    },
+    "homepage": "https://github.com/spaceneurons/weather_forecast#readme",
     "devDependencies": {
         "@babel/core": "^7.14.8",
         "@babel/preset-env": "^7.14.8",
