@@ -18,7 +18,7 @@
     "bugs": {
         "url": "https://spaceneurons.github.io/weather_forecast/issues"
     },
-    "homepage": "https://github.com/spaceneurons/weather_forecast#readme",
+    "homepage": "https://spaceneurons.github.io/weather_forecast/",
     "devDependencies": {
         "@babel/core": "^7.14.8",
         "@babel/preset-env": "^7.14.8",
